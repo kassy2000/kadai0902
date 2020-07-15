@@ -1,0 +1,10 @@
+abstract vlass Artist{
+    public void createArt(){
+        Art art = factoryMethod();
+        sign(art);
+        return art;
+    }
+
+    public abstract art factoryMethod() {}
+    public abstract void sign(art : Art){}
+}
