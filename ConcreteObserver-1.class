@@ -1,0 +1,23 @@
+import java util.*;
+class NishinHyouji implements Observer{
+    public void update(Subject s){
+        print(((Suuchi)s).getValue());
+    }
+    private void print(int n){
+        System.out.println(n + "を２進数で表示します");
+
+    int bin[] = new int[16];
+    int x = 0;
+    int n = sc.nextInt();
+    while(n >= 2)
+    bin[x] = n % 2;
+    x++;
+    n = n / 2;
+    }
+    bin[x] = x;
+    x++
+    for(int i = x -1; x >= 0; i--){
+        System.out.print(bin[x])
+    }
+    }
+}

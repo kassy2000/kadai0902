@@ -1,0 +1,12 @@
+class JyuurokushinHyouji implements Observer{
+    public void update(Subject s){
+        print(((Suuchi)s).getValue());
+    }
+
+    private void print(int n){
+        System.out.println(n + "を１６進数で表示します");
+
+        String x = Integer.toHexString(n);
+        System.out.println(n +" -> " + x)
+    }
+}
